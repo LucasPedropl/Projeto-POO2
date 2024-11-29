@@ -1,0 +1,12 @@
+package model;
+
+public class Entrada extends Movimentacao{
+    
+    public void calcularEntrada(){
+        
+    }
+
+    public void listarTotal(){
+
+    }
+}
