@@ -1,5 +1,6 @@
 
 import Model.Saida;
+import Model.Categoria;
 
 
 public class SaidaCtrl{

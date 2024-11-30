@@ -1,5 +1,6 @@
 
 import Model.Entrada;
+import Model.Categoria;
 
 
 public class EntradaCtrl{
