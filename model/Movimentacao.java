@@ -1,4 +1,4 @@
-package model;
+package Model;
 
 abstract class Movimentacao {
     String date;

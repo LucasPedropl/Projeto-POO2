@@ -1,8 +1,8 @@
-package Controller;
+
 import Model.Entrada;
 
 
-public class EntradaCtrl extends MovimentacaoCtrl{
+public class EntradaCtrl{
 
     
     public EntradaCtrl(){

@@ -1,8 +1,8 @@
-package Controller;
+
 import Model.Saida;
 
 
-public class SaidaCtrl extends MovimentacaoCtrl{
+public class SaidaCtrl{
     
     public SaidaCtrl(){
         // Abro conexão
