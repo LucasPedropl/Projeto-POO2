@@ -3,6 +3,11 @@ import Model.Saida;
 
 
 public class SaidaCtrl{
+
+    String date;
+    Categoria categoria;
+    float valor;
+    int id;
     
     public SaidaCtrl(){
         // Abro conexão

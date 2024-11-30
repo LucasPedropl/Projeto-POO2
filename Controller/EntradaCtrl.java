@@ -4,6 +4,11 @@ import Model.Entrada;
 
 public class EntradaCtrl{
 
+    String date;
+    Categoria categoria;
+    float valor;
+    int id;
+
     
     public EntradaCtrl(){
         // Abro conexão

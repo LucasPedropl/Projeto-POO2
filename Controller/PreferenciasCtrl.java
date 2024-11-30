@@ -3,6 +3,9 @@ import Model.Preferencias;
 
 
 public  class PreferenciasCtrl {
+
+    boolean modoEscuro;
+    boolean manterLogin;
     
     public PreferenciasCtrl(){
         // Abro conexão

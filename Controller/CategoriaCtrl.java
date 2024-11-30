@@ -4,6 +4,8 @@ import Model.Categoria;
 
 public class CategoriaCtrl {
     
+    String nome;
+
     public CategoriaCtrl(){
         // Abro conexão
         

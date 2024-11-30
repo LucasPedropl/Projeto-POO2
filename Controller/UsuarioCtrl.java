@@ -4,6 +4,9 @@ import Model.Usuario;
 
 public class UsuarioCtrl {
     
+    String nome, email, senha;
+    int preferencia;
+
     public UsuarioCtrl(){
         // Abro conexão
         

@@ -3,6 +3,10 @@ import Model.Relatorio;
 
 
 public class RelatorioCtrl {
+
+    float saldo;
+    float receita;
+    float despesa;
     
     public RelatorioCtrl(){
         // Abro conexão
