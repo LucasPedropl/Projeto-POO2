@@ -3,6 +3,7 @@ package com.example.financemate2.controller;
 import com.example.financemate2.model.Preferencias;
 
 
+
 public  class PreferenciasCtrl {
 
     boolean modoEscuro;

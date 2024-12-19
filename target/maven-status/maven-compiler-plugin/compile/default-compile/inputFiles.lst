@@ -1,2 +1,16 @@
-C:\Users\carlo\Desktop\financemate2\src\main\java\com\controller\HomeController.java
+C:\Users\carlo\Desktop\financemate2\src\main\java\com\example\financemate2\ConexaoMySql.java
+C:\Users\carlo\Desktop\financemate2\src\main\java\com\example\financemate2\controller\CategoriaCtrl.java
+C:\Users\carlo\Desktop\financemate2\src\main\java\com\example\financemate2\controller\EntradaCtrl.java
+C:\Users\carlo\Desktop\financemate2\src\main\java\com\example\financemate2\controller\HomeController.java
+C:\Users\carlo\Desktop\financemate2\src\main\java\com\example\financemate2\controller\PreferenciasCtrl.java
+C:\Users\carlo\Desktop\financemate2\src\main\java\com\example\financemate2\controller\RelatorioCtrl.java
+C:\Users\carlo\Desktop\financemate2\src\main\java\com\example\financemate2\controller\SaidaCtrl.java
+C:\Users\carlo\Desktop\financemate2\src\main\java\com\example\financemate2\controller\UsuarioCtrl.java
 C:\Users\carlo\Desktop\financemate2\src\main\java\com\example\financemate2\Financemate2Application.java
+C:\Users\carlo\Desktop\financemate2\src\main\java\com\example\financemate2\model\Categoria.java
+C:\Users\carlo\Desktop\financemate2\src\main\java\com\example\financemate2\model\Entrada.java
+C:\Users\carlo\Desktop\financemate2\src\main\java\com\example\financemate2\model\Movimentacao.java
+C:\Users\carlo\Desktop\financemate2\src\main\java\com\example\financemate2\model\Preferencias.java
+C:\Users\carlo\Desktop\financemate2\src\main\java\com\example\financemate2\model\Relatorio.java
+C:\Users\carlo\Desktop\financemate2\src\main\java\com\example\financemate2\model\Saida.java
+C:\Users\carlo\Desktop\financemate2\src\main\java\com\example\financemate2\model\Usuario.java

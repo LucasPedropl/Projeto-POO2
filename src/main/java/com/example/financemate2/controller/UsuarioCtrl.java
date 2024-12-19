@@ -2,6 +2,7 @@ package com.example.financemate2.controller;
 
 import com.example.financemate2.model.Usuario;
 
+
 public class UsuarioCtrl {
     
     String nome, email, senha;

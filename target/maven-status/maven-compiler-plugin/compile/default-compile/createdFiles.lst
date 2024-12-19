@@ -1,2 +1,16 @@
-com\controller\HomeController.class
+com\example\financemate2\ConexaoMySql.class
+com\example\financemate2\controller\RelatorioCtrl.class
+com\example\financemate2\model\Preferencias.class
+com\example\financemate2\model\Movimentacao.class
+com\example\financemate2\controller\PreferenciasCtrl.class
+com\example\financemate2\controller\CategoriaCtrl.class
+com\example\financemate2\model\Categoria.class
+com\example\financemate2\model\Entrada.class
+com\example\financemate2\model\Saida.class
+com\example\financemate2\controller\HomeController.class
+com\example\financemate2\controller\EntradaCtrl.class
+com\example\financemate2\model\Usuario.class
+com\example\financemate2\controller\SaidaCtrl.class
+com\example\financemate2\model\Relatorio.class
+com\example\financemate2\controller\UsuarioCtrl.class
 com\example\financemate2\Financemate2Application.class
