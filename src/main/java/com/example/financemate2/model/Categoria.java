@@ -1,4 +1,5 @@
 package com.example.financemate2.model;
+import com.example.financemate2.ConexaoPostgres;
 
 public class Categoria {
 
@@ -11,4 +12,7 @@ public class Categoria {
     public void setNome(String nome){
         this.nome = nome;
     }
+
+    
+
 }

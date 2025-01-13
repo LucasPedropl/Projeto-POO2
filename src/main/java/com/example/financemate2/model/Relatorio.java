@@ -2,21 +2,34 @@ package com.example.financemate2.model;
 
 public class Relatorio {
 
-    public boolean isModoEscuro() {
-        return modoEscuro;
+    float saldo;
+    float receita;
+    float despesa;
+
+    public float getSaldo() {
+        return saldo;
     }
 
-    public void setModoEscuro(boolean modoEscuro) {
-        this.modoEscuro = modoEscuro;
+    public void setSaldo(float saldo) {
+        this.saldo = saldo;
     }
 
-    public boolean isManterLogin() {
-        return manterLogin;
+    public float getReceita() {
+        return receita;
     }
 
-    public void setManterLogin(boolean manterLogin) {
-        this.manterLogin = manterLogin;
+    public void setReceita(float receita) {
+        this.receita = receita;
     }
-    boolean modoEscuro, manterLogin;
+
+    public float getDespesa() {
+        return despesa;
+    }
+
+    public void setDespesa(float despesa) {
+        this.despesa = despesa;
+    }
+    
+    
     
 }

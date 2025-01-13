@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+#principal{
+    height: 100vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#navSup {
+    height: 6vh;
+    position: fixed; /* Barra fixa no topo */
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333A40;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+#areaLogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo{
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+}
+
+#menus{
+    display: flex;
+    gap: 20px;
+}
+
+#menu-toggle {
+    width: 50px;
+    height: 50px;
+    background: #333;
+    color: white;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#menu-toggle:hover{
+    color: #797979;
+}
+
+#fixed-bar {
+    position: fixed;
+    top: 6vh; /* Abaixo do menu superior */
+    left: 0;
+    width: 80px;
+    height: calc(100vh - 6vh); /* Altura restante */
+    background: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 1000;
+}
+
+#sidebar {
+    position: fixed;
+    top: 6vh;
+    left: 80px;
+    height: calc(100vh - 6vh);
+    width: 300px;
+    background: #f4f4f4;
+    transform: translateX(-100%); /* Oculto inicialmente */
+    transition: transform 0.3s ease;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
+    z-index: 999;
+    overflow-y: auto;
+}
+
+#sidebar.show {
+    transform: translateX(60px);
+}
+
+#sidebar.show {
+    transform: translateX(0);
+}
+
+.profile {
+    text-align: center;
+    padding: 20px;
+    background: #ddd;
+}
+
+.profile img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.profile h3 {
+    margin: 10px 0 5px;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+}
+
+.menu li {
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    position: relative;
+    color: #333;
+}
+
+.menu li:hover {
+    background: #e0e0e0;
+}
+
+.menu i {
+    font-size: 18px;
+}
+
+.submenu-toggle {
+    margin-left: auto;
+}
+
+.submenu {
+    display: none;
+    list-style: none;
+    padding-left: 20px;
+    background: #f9f9f9;
+}
+
+.submenu li {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.submenu li:hover {
+    background: #e0e0e0;
+}
+

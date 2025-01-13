@@ -1,6 +1,9 @@
 package com.example.financemate2.model;
 
 public class Usuario {
+    
+    String nome, email, senha;
+    int preferencia;
 
     public String getNome() {
         return nome;
@@ -34,7 +37,5 @@ public class Usuario {
         this.preferencia = preferencia;
     }
 
-    String nome, email, senha;
-    int preferencia;
 
 }

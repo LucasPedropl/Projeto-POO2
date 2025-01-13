@@ -1,7 +1,7 @@
-com\example\financemate2\ConexaoMySql.class
 com\example\financemate2\controller\RelatorioCtrl.class
 com\example\financemate2\model\Preferencias.class
 com\example\financemate2\model\Movimentacao.class
+com\example\financemate2\ConexaoPostgres.class
 com\example\financemate2\controller\PreferenciasCtrl.class
 com\example\financemate2\controller\CategoriaCtrl.class
 com\example\financemate2\model\Categoria.class
